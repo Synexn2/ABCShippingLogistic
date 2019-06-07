@@ -1,0 +1,36 @@
+﻿
+@{
+    ViewBag.Title = "CreateRole";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Create Role</h2>
+@Html.ActionLink("List Roles", "GetRoles") |
+@Html.ActionLink("Manage User Role", "ManageUserRoles")
+<hr />
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+    <div class="form-horizontal">
+        <div class="form-group">
+            <div class="col-md-10">
+                <label>Role Name:</label>
+                @Html.TextBox("RoleName")
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save" />
+            </div>
+        </div>
+
+    </div>    
+    
+    
+    
+
+}

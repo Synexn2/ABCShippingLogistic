@@ -1,0 +1,39 @@
+\\studenthome\studenthome1\3\b4039403\MyWork\visual studio 2013\Projects\ABC\ABCService\bin\Debug\ABCService.dll
+\\studenthome\studenthome1\3\b4039403\MyWork\visual studio 2013\Projects\ABC\ABCService\bin\Debug\ABCService.pdb
+\\studenthome\studenthome1\3\b4039403\MyWork\visual studio 2013\Projects\ABC\ABCService\bin\Debug\ABCIntegration.dll
+\\studenthome\studenthome1\3\b4039403\MyWork\visual studio 2013\Projects\ABC\ABCService\bin\Debug\EntityFramework.dll
+\\studenthome\studenthome1\3\b4039403\MyWork\visual studio 2013\Projects\ABC\ABCService\bin\Debug\ABCIntegration.pdb
+\\studenthome\studenthome1\3\b4039403\MyWork\visual studio 2013\Projects\ABC\ABCService\bin\Debug\EntityFramework.xml
+\\studenthome\studenthome1\3\b4039403\MyWork\visual studio 2013\Projects\ABC\ABCService\obj\Debug\ABCService.csprojResolveAssemblyReference.cache
+\\studenthome\studenthome1\3\b4039403\MyWork\visual studio 2013\Projects\ABC\ABCService\obj\Debug\ABCService.dll
+\\studenthome\studenthome1\3\b4039403\MyWork\visual studio 2013\Projects\ABC\ABCService\obj\Debug\ABCService.pdb
+F:\MyWork\Visual Studio 2013\Projects\ABC\ABCService\bin\Debug\ABCService.dll
+F:\MyWork\Visual Studio 2013\Projects\ABC\ABCService\bin\Debug\ABCService.pdb
+F:\MyWork\Visual Studio 2013\Projects\ABC\ABCService\bin\Debug\ABCIntegration.dll
+F:\MyWork\Visual Studio 2013\Projects\ABC\ABCService\bin\Debug\EntityFramework.dll
+F:\MyWork\Visual Studio 2013\Projects\ABC\ABCService\bin\Debug\ABCIntegration.pdb
+F:\MyWork\Visual Studio 2013\Projects\ABC\ABCService\bin\Debug\EntityFramework.xml
+F:\MyWork\Visual Studio 2013\Projects\ABC\ABCService\obj\Debug\ABCService.csprojResolveAssemblyReference.cache
+F:\MyWork\Visual Studio 2013\Projects\ABC\ABCService\obj\Debug\ABCService.dll
+F:\MyWork\Visual Studio 2013\Projects\ABC\ABCService\obj\Debug\ABCService.pdb
+\\Studenthome\studenthome1\5\b2042725\MyWork\Visual Studio 2013\Projects\ABC\ABCService\bin\Debug\ABCService.dll
+\\Studenthome\studenthome1\5\b2042725\MyWork\Visual Studio 2013\Projects\ABC\ABCService\bin\Debug\ABCService.pdb
+\\Studenthome\studenthome1\5\b2042725\MyWork\Visual Studio 2013\Projects\ABC\ABCService\bin\Debug\ABCIntegration.dll
+\\Studenthome\studenthome1\5\b2042725\MyWork\Visual Studio 2013\Projects\ABC\ABCService\bin\Debug\EntityFramework.dll
+\\Studenthome\studenthome1\5\b2042725\MyWork\Visual Studio 2013\Projects\ABC\ABCService\bin\Debug\ABCIntegration.pdb
+\\Studenthome\studenthome1\5\b2042725\MyWork\Visual Studio 2013\Projects\ABC\ABCService\bin\Debug\EntityFramework.xml
+\\Studenthome\studenthome1\5\b2042725\MyWork\Visual Studio 2013\Projects\ABC\ABCService\obj\Debug\ABCService.csprojResolveAssemblyReference.cache
+\\Studenthome\studenthome1\5\b2042725\MyWork\Visual Studio 2013\Projects\ABC\ABCService\obj\Debug\ABCService.dll
+\\Studenthome\studenthome1\5\b2042725\MyWork\Visual Studio 2013\Projects\ABC\ABCService\obj\Debug\ABCService.pdb
+C:\Users\a.mustafa\Desktop\Delete me\ABC Submission 4\ABC\ABCService\bin\Debug\ABCService.dll
+C:\Users\a.mustafa\Desktop\Delete me\ABC Submission 4\ABC\ABCService\bin\Debug\ABCService.pdb
+C:\Users\a.mustafa\Desktop\Delete me\ABC Submission 4\ABC\ABCService\bin\Debug\ABCIntegration.dll
+C:\Users\a.mustafa\Desktop\Delete me\ABC Submission 4\ABC\ABCService\bin\Debug\EntityFramework.dll
+C:\Users\a.mustafa\Desktop\Delete me\ABC Submission 4\ABC\ABCService\bin\Debug\ABCIntegration.pdb
+C:\Users\a.mustafa\Desktop\Delete me\ABC Submission 4\ABC\ABCService\bin\Debug\ABCIntegration.dll.config
+C:\Users\a.mustafa\Desktop\Delete me\ABC Submission 4\ABC\ABCService\bin\Debug\EntityFramework.xml
+C:\Users\a.mustafa\Desktop\Delete me\ABC Submission 4\ABC\ABCService\obj\Debug\ABCService.csprojAssemblyReference.cache
+C:\Users\a.mustafa\Desktop\Delete me\ABC Submission 4\ABC\ABCService\obj\Debug\ABCService.csproj.CoreCompileInputs.cache
+C:\Users\a.mustafa\Desktop\Delete me\ABC Submission 4\ABC\ABCService\obj\Debug\ABCService.csproj.CopyComplete
+C:\Users\a.mustafa\Desktop\Delete me\ABC Submission 4\ABC\ABCService\obj\Debug\ABCService.dll
+C:\Users\a.mustafa\Desktop\Delete me\ABC Submission 4\ABC\ABCService\obj\Debug\ABCService.pdb

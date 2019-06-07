@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ABCModelStoreContainer" CdmEntityContainer="ABCEntities">
+    <EntitySetMapping Name="Branch">
+      <EntityTypeMapping TypeName="ABCModel.Branch">
+        <MappingFragment StoreEntitySet="Branch">
+          <ScalarProperty Name="branch_id" ColumnName="branch_id" />
+          <ScalarProperty Name="branch_code" ColumnName="branch_code" />
+          <ScalarProperty Name="addy_line1" ColumnName="addy_line1" />
+          <ScalarProperty Name="addy_line2" ColumnName="addy_line2" />
+          <ScalarProperty Name="city" ColumnName="city" />
+          <ScalarProperty Name="county" ColumnName="county" />
+          <ScalarProperty Name="country" ColumnName="country" />
+          <ScalarProperty Name="postcode" ColumnName="postcode" />
+          <ScalarProperty Name="manager_id" ColumnName="manager_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Parcel">
+      <EntityTypeMapping TypeName="ABCModel.Parcel">
+        <MappingFragment StoreEntitySet="Parcel">
+          <ScalarProperty Name="parcel_id" ColumnName="parcel_id" />
+          <ScalarProperty Name="type" ColumnName="type" />
+          <ScalarProperty Name="weight" ColumnName="weight" />
+          <ScalarProperty Name="Height" ColumnName="Height" />
+          <ScalarProperty Name="width" ColumnName="width" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="branch_code" ColumnName="branch_code" />
+          <ScalarProperty Name="shipping_addy_line1" ColumnName="shipping_addy_line1" />
+          <ScalarProperty Name="shipping_addy_line2" ColumnName="shipping_addy_line2" />
+          <ScalarProperty Name="shipping_city" ColumnName="shipping_city" />
+          <ScalarProperty Name="shipping_county" ColumnName="shipping_county" />
+          <ScalarProperty Name="shipping_country" ColumnName="shipping_country" />
+          <ScalarProperty Name="shipping_postcode" ColumnName="shipping_postcode" />
+          <ScalarProperty Name="tracking_id" ColumnName="tracking_id" />
+          <ScalarProperty Name="shipping_mode" ColumnName="shipping_mode" />
+          <ScalarProperty Name="date_create" ColumnName="date_create" />
+          <ScalarProperty Name="creator_id" ColumnName="creator_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Parcel_Tracking_Log">
+      <EntityTypeMapping TypeName="ABCModel.Parcel_Tracking_Log">
+        <MappingFragment StoreEntitySet="Parcel_Tracking_Log">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="tracking_id" ColumnName="tracking_id" />
+          <ScalarProperty Name="branch_code" ColumnName="branch_code" />
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="remarks" ColumnName="remarks" />
+          <ScalarProperty Name="parcel_id" ColumnName="parcel_id" />
+          <ScalarProperty Name="location" ColumnName="location" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserBranch">
+      <EntityTypeMapping TypeName="ABCModel.UserBranch">
+        <MappingFragment StoreEntitySet="UserBranch">
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="branch_code" ColumnName="branch_code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="C__MigrationHistory">
+      <EntityTypeMapping TypeName="ABCModel.C__MigrationHistory">
+        <MappingFragment StoreEntitySet="__MigrationHistory">
+          <ScalarProperty Name="MigrationId" ColumnName="MigrationId" />
+          <ScalarProperty Name="ContextKey" ColumnName="ContextKey" />
+          <ScalarProperty Name="Model" ColumnName="Model" />
+          <ScalarProperty Name="ProductVersion" ColumnName="ProductVersion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AspNetRoles">
+      <EntityTypeMapping TypeName="ABCModel.AspNetRoles">
+        <MappingFragment StoreEntitySet="AspNetRoles">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AspNetUserClaims">
+      <EntityTypeMapping TypeName="ABCModel.AspNetUserClaims">
+        <MappingFragment StoreEntitySet="AspNetUserClaims">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="ClaimType" ColumnName="ClaimType" />
+          <ScalarProperty Name="ClaimValue" ColumnName="ClaimValue" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AspNetUserLogins">
+      <EntityTypeMapping TypeName="ABCModel.AspNetUserLogins">
+        <MappingFragment StoreEntitySet="AspNetUserLogins">
+          <ScalarProperty Name="LoginProvider" ColumnName="LoginProvider" />
+          <ScalarProperty Name="ProviderKey" ColumnName="ProviderKey" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AspNetUsers">
+      <EntityTypeMapping TypeName="ABCModel.AspNetUsers">
+        <MappingFragment StoreEntitySet="AspNetUsers">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="EmailConfirmed" ColumnName="EmailConfirmed" />
+          <ScalarProperty Name="PasswordHash" ColumnName="PasswordHash" />
+          <ScalarProperty Name="SecurityStamp" ColumnName="SecurityStamp" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="PhoneNumberConfirmed" ColumnName="PhoneNumberConfirmed" />
+          <ScalarProperty Name="TwoFactorEnabled" ColumnName="TwoFactorEnabled" />
+          <ScalarProperty Name="LockoutEndDateUtc" ColumnName="LockoutEndDateUtc" />
+          <ScalarProperty Name="LockoutEnabled" ColumnName="LockoutEnabled" />
+          <ScalarProperty Name="AccessFailedCount" ColumnName="AccessFailedCount" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="AspNetUserRoles" TypeName="ABCModel.AspNetUserRoles" StoreEntitySet="AspNetUserRoles">
+      <EndProperty Name="AspNetRoles">
+        <ScalarProperty Name="Id" ColumnName="RoleId" />
+      </EndProperty>
+      <EndProperty Name="AspNetUsers">
+        <ScalarProperty Name="Id" ColumnName="UserId" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

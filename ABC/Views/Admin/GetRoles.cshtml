@@ -1,0 +1,49 @@
+﻿
+@{
+    ViewBag.Title = "GetRoles";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    var serial_Num = 1;
+}
+
+<h2>Available Roles</h2>
+
+
+
+<table class="table">
+
+    <tr>
+        <th>
+            Sn
+        </th>
+
+        <th>
+            <span>Role Name</span>
+        </th>
+
+        <th></th>
+    </tr>
+
+    @foreach (var role in Model)
+    {
+        <tr>
+            <td>@serial_Num</td>
+            <td>
+                @role.Name
+            </td>
+            <td>
+                <a href="#">Edit</a> |
+                <a href="#">Delete</a>
+                @*@Html.ActionLink("Edit", "EditRole", new { Id = role.Id }) |
+                @Html.ActionLink("Delete", "DeleteRole", new { Id = role.Id })*@
+            </td>
+        </tr>
+
+        serial_Num = serial_Num + 1;
+    }
+</table>
+
+
+
+@Html.ActionLink("Add Role", "CreateRole")
+

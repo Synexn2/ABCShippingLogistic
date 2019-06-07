@@ -1,0 +1,46 @@
+﻿
+@{
+    ViewBag.Title = "GetUsers";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    var serial_Num = 1;
+}
+
+<h2>Registered Users</h2>
+
+<table class="table">
+
+    <tr>
+        <th>
+            Sn
+        </th>
+
+        <th>
+            <span>User Name</span>
+        </th>
+
+        <th></th>
+    </tr>
+
+
+    @foreach (var user in Model)
+    {
+        <tr>
+            <td>@serial_Num</td>
+            <td>
+                @user.UserName 
+            </td>
+            <td>
+                <a href="#">Edit</a> |
+                <a href="#">Delete</a> 
+                @*@Html.ActionLink("Edit", "EditUser", new { Id = user.Id }) |
+                @Html.ActionLink("Delete", "DeleteUser", new { Id = user.Id })*@
+            </td>
+        </tr>
+        
+        serial_Num = serial_Num + 1;
+    }
+</table>
+
+    @Html.ActionLink("Add User", "Register", new { Controller = "Account" })
+

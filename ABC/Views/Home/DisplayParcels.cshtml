@@ -1,0 +1,77 @@
+﻿@model IEnumerable<ABCIntegration.Parcel>
+
+@{
+    ViewBag.Title = "DisplayParcels";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    var serial_Num = 1;
+
+}
+
+
+@if (ViewBag.UserType == "User")
+{
+    <h2>Display of Your Parcels</h2>
+
+}
+else
+{
+    <h2>Display of All Parcels</h2>
+}
+
+
+
+    <p>
+        @Html.ActionLink("Create New Parcel", "../Admin/NewParcel")<span> | </span>
+        @Html.ActionLink("Track A Parcel", "TrackParcel")<span></span>
+    </p>
+    <table class="table">
+        <tr>
+            <td>
+                Sn
+            </td>
+
+            <th>
+                @Html.DisplayNameFor(model => model.description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.branch_code)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.date_create)
+            </th>
+
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+
+            Model.Count();
+            <tr>
+                <td>
+                    @serial_Num
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.description)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.branch_code)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.date_create)
+                </td>
+
+                <td>
+                    @Html.ActionLink("Edit", "../Admin/EditParcel", new { Parcel_Id = item.parcel_id }, new { title = "Edit Parcel Record" }) |
+                    @Html.ActionLink("Details", "DisplayParcel", new { Parcel_Id = item.parcel_id }, new { title = "View Details to Add Tracking Information" }) |
+                    @Html.ActionLink("Delete", "../Admin/DeleteParcel", new { Parcel_Id = item.parcel_id }, new { title = "Delete Parcel Record" })
+                </td>
+            </tr>
+            serial_Num = serial_Num + 1;
+        }
+
+    </table>

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABC", "ABC\ABC.csproj", "{62F31D5F-B8BA-4CC0-934F-18E7E4E5243F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABCIntegration", "ABCIntegration\ABCIntegration.csproj", "{A56A1219-9513-4496-B8C2-69F9358B33F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABCService", "ABCService\ABCService.csproj", "{6769BC3D-515F-4FC4-BE6F-7D1308F5B3B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62F31D5F-B8BA-4CC0-934F-18E7E4E5243F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62F31D5F-B8BA-4CC0-934F-18E7E4E5243F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62F31D5F-B8BA-4CC0-934F-18E7E4E5243F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62F31D5F-B8BA-4CC0-934F-18E7E4E5243F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A56A1219-9513-4496-B8C2-69F9358B33F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A56A1219-9513-4496-B8C2-69F9358B33F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A56A1219-9513-4496-B8C2-69F9358B33F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A56A1219-9513-4496-B8C2-69F9358B33F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6769BC3D-515F-4FC4-BE6F-7D1308F5B3B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6769BC3D-515F-4FC4-BE6F-7D1308F5B3B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6769BC3D-515F-4FC4-BE6F-7D1308F5B3B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6769BC3D-515F-4FC4-BE6F-7D1308F5B3B1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

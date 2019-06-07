@@ -1,0 +1,152 @@
+﻿@model ABCIntegration.Parcel
+
+@{
+    ViewBag.Title = "DeleteParcel";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Delete Parcel</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.type)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.type)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.weight)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.weight)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Height)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Height)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.width)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.width)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.description)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.description)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.branch_code)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.branch_code)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.shipping_addy_line1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.shipping_addy_line1)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.shipping_addy_line2)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.shipping_addy_line2)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.shipping_city)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.shipping_city)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.shipping_county)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.shipping_county)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.shipping_country)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.shipping_country)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.shipping_postcode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.shipping_postcode)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.tracking_id)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tracking_id)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.shipping_mode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.shipping_mode)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.date_create)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.date_create)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.creator_id)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.creator_id)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "../Home/DisplayParcels")
+        </div>
+    }
+</div>

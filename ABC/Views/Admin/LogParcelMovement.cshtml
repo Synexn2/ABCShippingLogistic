@@ -1,0 +1,86 @@
+﻿@model ABCIntegration.Parcel_Tracking_Log
+
+@{
+    ViewBag.Title = "LogParcelMovement";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>LogParcelMovement</h2>
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <h4>Parcel_Tracking_Log</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @*<div class="form-group">
+            @Html.LabelFor(model => model.Id, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Id, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Id, "", new { @class = "text-danger" })
+            </div>
+        </div>*@
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.tracking_id, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @*@Html.EditorFor(model => model.tracking_id, (String)ViewBag.Tracking_Id)*@
+                @Html.TextBoxFor(model => model.tracking_id, (String)ViewBag.Tracking_Id, new { disabled = "disabled" })
+                @Html.ValidationMessageFor(model => model.tracking_id, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.parcel_id, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @*@Html.EditorFor(model => model.parcel_id, (String)ViewBag.Parcel_Id)*@
+                @Html.TextBoxFor(model => model.parcel_id, (String)ViewBag.Parcel_Id, new { disabled = "disabled" })
+                @Html.ValidationMessageFor(model => model.parcel_id, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        @*<div class="form-group">
+            @Html.LabelFor(model => model.branch_code, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.branch_code, (String)ViewBag.Branch_Code, new { disabled = "disabled" })
+                @Html.ValidationMessageFor(model => model.branch_code, "", new { @class = "text-danger" })
+            </div>
+        </div>*@
+
+    @*<div class="form-group">
+        @Html.LabelFor(model => model.date, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.date, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.date, "", new { @class = "text-danger" })
+        </div>
+    </div>*@
+
+    @*<div class="form-group">
+    @Html.LabelFor(model => model.time_out, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.time_out, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.time_out, "", new { @class = "text-danger" })
+        </div>
+    </div>*@
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.remarks, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.remarks, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.remarks, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
